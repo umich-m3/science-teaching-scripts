@@ -1,0 +1,194 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.button {
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+a {
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+img {
+	width:75%;
+}
+
+header {
+	background-color: #00274c;
+	width:100%;
+	display: table;
+}
+
+header h1 {
+	font-size: 3em;
+	color: #ffcb05;
+	text-align: center;
+	margin: .2em;
+	
+}
+
+nav {
+	margin-top: 1em;
+	text-align: center;
+}
+
+main {
+	margin-bottom: 3em;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   border-top: 1px lightgrey solid;
+   background-color: #ffcb05;
+   text-align: center;
+   
+}
+@media (max-width: 567px) {
+	
+	footer {
+	font-size: .6em;
+   
+	}
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu main {
+	margin-top: 2em;
+}
+
+/* ------- Navigation -------- */
+
+.button.active {
+	background-color: lightblue;
+}
+
+/* Portrait and Landscape */
+@media (max-width: 567px) {
+	
+	.container {
+		padding: 0em;
+	}
+	
+	nav .button {
+	    height: 38px;
+	    padding: 0 5px;
+	    color: #555;
+	    text-align: center;
+	    font-size: 7px;
+	    font-weight: 600;
+	    line-height: 38px;
+	}
+	
+	main {
+		padding: 0 1em;
+	}
+}
+
+
+
+
+/* ------- Questions -------- */
+
+.questions h3 {
+	width: 100%;
+	text-align: left;
+	color: black;
+	font-size:1.1em;
+	font-weight: normal;
+	word-wrap: break-word;
+	padding:.4em;
+	border: solid 1px lightgray;
+	margin-bottom: 1rem;
+	/* For supporting browsers */
+	border-radius: 5px;
+	/* Old Chrome */
+	-webkit-border-radius: 5px;
+	/* Old Firefox */
+	-moz-border-radius: 5px;
+	clear: both;
+	margin-top: 1em;
+	
+}
+
+.questions h3:hover {
+	background-color: #dff0d8;
+	cursor: pointer;
+}
+
+.step-quest h3:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+.ui-state-default {
+	background-color: #f2f2f2;
+}
+
+.ui-accordion-header-active {
+	background-color: #dff0d8;
+}
+
+.step-quest .ui-accordion-header-active {
+	background-color: #f2f2f2;
+}
+
+.questions .quest-answer {
+	margin-left: 2em;
+	margin-bottom: 2em;
+	display: block;
+	width: 90%;
+}
+
+.questions .quest-answer p {
+	width: 90%;
+	padding: 1em;
+	/* For supporting browsers */
+	border-radius: 5px;
+	/* Old Chrome */
+	-webkit-border-radius: 5px;
+	/* Old Firefox */
+	-moz-border-radius: 5px;
+	clear: both;
+}
+
+.questions ul {
+	list-style-position: outside;
+}
+
+.success {
+	background-color: #dff0d8;
+	
+}
+
+.danger {
+	background-color: #ffb3b3;
+	
+}
+
+/* ------- References -------- */
+
+ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
